@@ -1,0 +1,175 @@
+/*
+Google Font Alternatives (kind of lame ones though)
+
+Futura - Muli
+Helvetica - Source Sans Pro
+Optima - Arsenal
+Garmond - Lora
+Playfair Display - Bodini
+
+font-family: 'Muli', sans-serif;
+font-family: 'Source Sans Pro', sans-serif;
+font-family: 'Arsenal', sans-serif;
+font-family: 'Lora', serif;
+font-family: 'Playfair Display', serif;
+*/
+
+html {
+    font-size: 16px;
+    font-family: 'Arsenal', sans-serif;
+    color: #222;
+    background-color: black;
+}
+
+
+header {
+	background-color: rgb(43, 43, 43); 
+    background-color: 2b2b2b;
+    height: 320px;
+    width: 100%;
+	margin-top: 5%;
+    position: relative;
+	border-radius: 15px;
+	transform: skew(20deg);
+}
+
+#logo {
+    font-family: 'Playfair Display', serif;
+    font-variant: small-caps;
+    letter-spacing: .05em;
+    font-size: 1.5em;
+    color: white;
+    line-height: 1.0em;
+}
+
+#logo img {
+    background-color: rgb(43, 43, 43);
+    background-color: 2b2b2b;
+	border-radius: 15px;
+    float: center;
+    height: 80%;
+    width: 20%;
+	margin-left: 40px;
+    padding: 20px 20px;
+	transform: skew(-20deg);
+}
+
+#logo p {
+    float: left;
+    padding: 0 0 0 20%; 
+}
+
+nav {
+    position: relative;
+    width: 100%;
+    bottom: 0;
+	border-radius: 5px;
+}
+
+nav ul {
+    font-family: 'Muli', sans-serif;
+    list-style-type: none;
+    overflow: hidden;
+    color: #ddd;
+    background-color: #222;
+    margin: 0;
+	margin-right: 300px;
+    padding: 0;
+	border-bottom-left-radius: 5px;
+	transform: skew(1deg);
+	}
+
+nav li {
+    float: center;
+	position:relative;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+	transform: skew(-10deg);
+}
+
+nav li a:hover {
+    background-color: 159F00;
+}
+
+#content {
+    min-height: 200px;
+    padding: 0 50px;
+    background-color: black;
+	padding-top: 180px;
+    padding-bottom: 80px;
+    color: indigo;
+}
+
+.companyLogoContainer {
+    height: 100px;
+    width: 200px;
+}
+
+.companyLogoContainer img {
+    width: 100%;
+    height: auto;
+}
+.username {
+    font-family: 'Lora', serif;
+    padding-top: 200px;
+    font-size: 1.2em;
+    font-style: italic;
+    text-align: right;
+    padding-right: 5px;
+}
+
+.userpic {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: contain;
+    background-color: #222;
+    border: 2pt solid #222;
+    float: left;
+    margin: 0 40px 20px 0px;
+}
+
+textarea {
+    width: 95%;
+    color: #777;
+    font-size: 1em;
+    padding: 1em;
+    height: 100px;
+}
+
+footer {
+    background-color: 2b2b2b;
+	background-color: rgb(43,43,43);
+    color: white;
+    height: 200px;
+    width: 100%;
+    position: relative;
+    text-align: center;
+    padding: 20px 0 0 0;
+	border-radius: 15px;
+}
+
+
+
+footer a {
+    color: blue;
+}
+
+[data-tab-content] {
+    display:none;
+}
+
+.active[data-tab-content]{
+    display: block;
+}
+
+#index {
+    text-align: 'center';
+    color: indigo;
+}
